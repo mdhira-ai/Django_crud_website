@@ -23,7 +23,7 @@ def signin(request):
                 else:
                     print('[-] Your username or password is wrong')
                     messages.info(request, '[-] Your username or password is wrong')
-                    return redirect('/')
+                    return redirect("/")
 
 
             except:
